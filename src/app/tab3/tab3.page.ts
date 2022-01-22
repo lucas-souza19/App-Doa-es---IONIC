@@ -9,4 +9,8 @@ export class Tab3Page {
 
   constructor() {}
 
+  whats() {
+    window.open('https://api.whatsapp.com/send?phone=5519986014199&text=Ol%C3%A1%20vim%20atraves%20do%20seu%20App%20Gostaria%20de%20receber%20doacoes', '_blank').focus();
+  }
+
 }
